@@ -27,15 +27,15 @@ for dis in ${DISTRIBS}; do
 
   if [ $retVal -eq 0 ]; then
     echo "----------------- running ${tag}"
-    docker run --privileged --net=host \
+    sudo docker run --privileged --net=host \
       -v $OPENCV_TEST_DATA_PATH:/root/testdata \
       -e OPENCV_TEST_DATA_PATH=/root/testdata \
       opencv:${tag} /root/opencv/build/bin/opencv_test_videoio > videoio_${tag}.log 2>&1
     #tail videoio_${tag}.log
 
     mkdir -p summary
-    docker run opencv:${tag} apt list --installed > packages.txt 2>/dev/null
-    docker run opencv:${tag} yum list installed >> packages.txt 2>/dev/null
+    sudo docker run opencv:${tag} apt list --installed > packages.txt 2>/dev/null
+    sudo docker run opencv:${tag} yum list installed >> packages.txt 2>/dev/null
     grep -e va-driver -e mfx -e ffmpeg -e libva -e opencl -e intel-media -e gstreamer packages.txt > summary/${tag}.txt
     grep "acceleration =" videoio_${tag}.log | grep -v NONE | sort --unique >> summary/${tag}.txt
     grep "FAILED" videoio_${tag}.log >> summary/${tag}.txt
