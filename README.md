@@ -1,8 +1,8 @@
 Collection of Ubuntu and CentOS docker files to test HW accelerated decode/encode in OpenCV VideoCapture and VideoWriter interfaces.
 Plus script to build/run all or selective dockers.
-The script expects OpenCV source code tree in folder one level up. Example, to run on branch MY_BRANCH
+The script expects OpenCV source code tree in folder one level up. Example, to run testing on OpenCV branch MY_BRANCH
 ```
-git clone MY_BRANCH my_openc
+git clone MY_BRANCH my_opencv
 cd my_opencv
 git clone [this-repo] opencv-docker
 cd opencv-docker
