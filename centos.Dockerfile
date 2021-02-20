@@ -5,6 +5,7 @@ USER root
 WORKDIR /
 
 RUN yum -y update
+RUN yum install -y epel-release
 
 # Development Tools
 RUN yum install -y cmake pkg-config
