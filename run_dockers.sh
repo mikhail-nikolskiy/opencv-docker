@@ -7,6 +7,8 @@ DISTRIBS=${1:-ubuntu:18.04 \
   ubuntu-non-free:21.04 \
   ubuntu-gpgpu:20.04 \
   ubuntu-gpgpu:21.04 \
+  centos:centos7 \
+  centos:centos8 \
   centos-multimedia:centos7 \
   centos-multimedia:centos8 \
   centos-gpgpu-multimedia:centos7 \
