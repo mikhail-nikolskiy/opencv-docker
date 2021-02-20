@@ -6,7 +6,7 @@ WORKDIR /
 
 # Intel distribution of GPGPU drivers: https://dgpu-docs.intel.com/
 RUN dnf install -y 'dnf-command(config-manager)'
-RUn dnf config-manager --add-repo https://repositories.intel.com/graphics/rhel/8.1/intel-graphics.repo
+RUN dnf config-manager --add-repo https://repositories.intel.com/graphics/rhel/8.1/intel-graphics.repo
 RUN dnf -y update --refresh
 
 # Development Tools
