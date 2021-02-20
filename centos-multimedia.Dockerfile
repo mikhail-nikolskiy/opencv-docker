@@ -26,7 +26,7 @@ RUN yum install -y intel-mediasdk-devel
 RUN yum install -y ffmpeg ffmpeg-devel
 
 # GStreamer
-RUN yum install -y gstreamer1-devel gstreamer1-plugins-base-devel gstreamer1-plugins-good gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free-devel
+#RUN yum install -y gstreamer1-devel gstreamer1-plugins-base-devel gstreamer1-plugins-good gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free-devel
 
 # cmake 3.x
 RUN yum -y install cmake3 && cp -f /usr/bin/cmake3 /usr/bin/cmake || true
