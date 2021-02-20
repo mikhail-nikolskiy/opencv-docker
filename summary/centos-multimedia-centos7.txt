@@ -1,0 +1,37 @@
+ffmpeg.x86_64                    1:4.3.1-4.el7                  @epel-multimedia
+ffmpeg-devel.x86_64              1:4.3.1-4.el7                  @epel-multimedia
+ffmpeg-libs.x86_64               1:4.3.1-4.el7                  @epel-multimedia
+gstreamer.x86_64                 0.10.36-7.el7                  @base           
+gstreamer-plugins-base.x86_64    0.10.36-10.el7                 @base           
+gstreamer-tools.x86_64           0.10.36-7.el7                  @base           
+gstreamer1.x86_64                1.14.5-1.el7                   @epel-multimedia
+gstreamer1-devel.x86_64          1.14.5-1.el7                   @epel-multimedia
+gstreamer1-plugins-bad.x86_64    1:1.14.5-2.el7                 @epel-multimedia
+gstreamer1-plugins-bad-devel.x86_64
+gstreamer1-plugins-base.x86_64   1.14.5-1.el7                   @epel-multimedia
+gstreamer1-plugins-base-devel.x86_64
+gstreamer1-plugins-good.x86_64   1.14.4-1.el7                   @epel-multimedia
+gstreamer1-plugins-ugly.x86_64   1:1.14.5-2.el7                 @epel-multimedia
+intel-media-driver.x86_64        20.4.5-1.el7                   @epel-multimedia
+intel-mediasdk.x86_64            1:20.3.1-1.el7                 @epel-multimedia
+intel-mediasdk-devel.x86_64      1:20.3.1-1.el7                 @epel-multimedia
+libva.x86_64                     1:2.10.0-1.el7                 @epel-multimedia
+libva-devel.x86_64               1:2.10.0-1.el7                 @epel-multimedia
+libva-utils.x86_64               1:2.10.0-1.el7                 @epel-multimedia
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4: acceleration = MFX, PSNR-sw = 37.5141, PSNR-original = 32.0503
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4: acceleration = VAAPI, PSNR-sw = 37.5185, PSNR-original = 32.0488
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libx264.mp4: acceleration = MFX, PSNR-sw = 37.4776, PSNR-original = 32.0695
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libx264.mp4: acceleration = VAAPI, PSNR-sw = 37.4776, PSNR-original = 32.0695
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libx265.mp4: acceleration = MFX, PSNR-sw = 37.4933, PSNR-original = 31.7869
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libx265.mp4: acceleration = VAAPI, PSNR-sw = 37.4933, PSNR-original = 31.7869
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libxvid.mp4: acceleration = VAAPI, PSNR-sw = 361.202, PSNR-original = 30.1538
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.mjpeg.mp4: acceleration = VAAPI, PSNR-sw = 37.5922, PSNR-original = 31.8029
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.mpeg2video.mp4: acceleration = MFX, PSNR-sw = 37.5005, PSNR-original = 31.8777
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.mpeg2video.mp4: acceleration = VAAPI, PSNR-sw = 37.5049, PSNR-original = 31.8763
+FFMPEG VideoWriter on codec H264: acceleration = MFX, bitrate = 100967, PSNR = 37.1323
+FFMPEG VideoWriter on codec H264: acceleration = VAAPI, bitrate = 307485, PSNR = 37.1903
+FFMPEG VideoWriter on codec HEVC: acceleration = MFX, bitrate = 115472, PSNR = 37.1341
+FFMPEG VideoWriter on codec HEVC: acceleration = VAAPI, bitrate = 167310, PSNR = 37.1808
+FFMPEG VideoWriter on codec MPEG: acceleration = MFX, bitrate = 162660, PSNR = 35.7893
+FFMPEG VideoWriter on codec MPEG: acceleration = VAAPI, bitrate = 220120, PSNR = 35.7893
+[  PASSED  ] 246 tests.

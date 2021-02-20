@@ -1,0 +1,11 @@
+ffmpeg/bionic-updates,bionic-security,now 7:3.4.8-0ubuntu0.2 amd64 [installed]
+i965-va-driver/bionic,now 2.1.0-0ubuntu1 amd64 [installed,automatic]
+libva-dev/bionic,now 2.1.0-3 amd64 [installed]
+libva-drm2/bionic,now 2.1.0-3 amd64 [installed,automatic]
+libva-glx2/bionic,now 2.1.0-3 amd64 [installed,automatic]
+libva-wayland2/bionic,now 2.1.0-3 amd64 [installed,automatic]
+libva-x11-2/bionic,now 2.1.0-3 amd64 [installed,automatic]
+libva2/bionic,now 2.1.0-3 amd64 [installed,automatic]
+mesa-va-drivers/bionic-updates,now 20.0.8-0ubuntu1~18.04.1 amd64 [installed,automatic]
+va-driver-all/bionic,now 2.1.0-3 amd64 [installed,automatic]
+[  PASSED  ] 244 tests.

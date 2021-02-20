@@ -7,8 +7,7 @@ WORKDIR /
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
 
 RUN apt-get -y update; \
-    apt-get -y -q --no-install-recommends install apt-utils software-properties-common ca-certificates wget; \
-    apt-get -y install --allow-unauthenticated gnupg
+    apt-get -y -q --no-install-recommends install apt-utils software-properties-common ca-certificates wget
 RUN apt-get -y install build-essential cmake pkg-config
 
 # OpenCV dependencies
@@ -17,11 +16,11 @@ RUN apt-get -y install libtbb-dev libjpeg-dev libpng-dev libtiff-dev libatlas-ba
 # VAAPI
 RUN apt-get install -y libva-dev vainfo
 
-# MFX
-#RUN apt-get install -y libmfx-dev libmfx-tools
+# MFX (not available in 18.04)
+RUN apt-get install -y libmfx-dev libmfx-tools || true
 
-# OpenCL
-RUN apt-get install -y intel-opencl-icd libigc1 libigc-dev libigc-tools clinfo
+# OpenCL (Intel OpenCL not available in 18.04)
+RUN apt-get install -y intel-opencl-icd libigc1 libigc-dev libigc-tools clinfo || true
 
 # FFMPEG
 RUN apt-get -y install ffmpeg libavcodec-dev libavformat-dev libswscale-dev

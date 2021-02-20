@@ -1,0 +1,25 @@
+ffmpeg/focal-updates,focal-security,now 7:4.2.4-1ubuntu0.1 amd64 [installed]
+intel-media-va-driver-non-free/focal,now 20.1.1+ds1-1build1 amd64 [installed]
+intel-opencl-icd/focal,now 20.13.16352-1 amd64 [installed]
+libgstreamer1.0-0/focal,now 1.16.2-2 amd64 [installed,automatic]
+libmfx-dev/focal,now 20.1.0-0ubuntu1 amd64 [installed]
+libmfx-tools/focal,now 20.1.0-0ubuntu1 amd64 [installed]
+libmfx1/focal,now 20.1.0-0ubuntu1 amd64 [installed,automatic]
+libopencl-clang10/focal,now 10.0.0-2 amd64 [installed,automatic]
+libva-dev/focal,now 2.7.0-2 amd64 [installed]
+libva-drm2/focal,now 2.7.0-2 amd64 [installed,automatic]
+libva-glx2/focal,now 2.7.0-2 amd64 [installed,automatic]
+libva-wayland2/focal,now 2.7.0-2 amd64 [installed,automatic]
+libva-x11-2/focal,now 2.7.0-2 amd64 [installed,automatic]
+libva2/focal,now 2.7.0-2 amd64 [installed,automatic]
+ocl-icd-libopencl1/focal,now 2.2.11-1ubuntu1 amd64 [installed,automatic]
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4: acceleration = VAAPI, PSNR-sw = 37.5185, PSNR-original = 32.0488
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libx264.mp4: acceleration = VAAPI, PSNR-sw = 37.4776, PSNR-original = 32.0695
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libx265.mp4: acceleration = VAAPI, PSNR-sw = 37.4933, PSNR-original = 31.7869
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libxvid.mp4: acceleration = VAAPI, PSNR-sw = 361.202, PSNR-original = 30.1538
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.mjpeg.mp4: acceleration = VAAPI, PSNR-sw = 37.5922, PSNR-original = 31.8029
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.mpeg2video.mp4: acceleration = VAAPI, PSNR-sw = 37.5049, PSNR-original = 31.8763
+FFMPEG VideoWriter on codec H264: acceleration = VAAPI, bitrate = 307477, PSNR = 37.1903
+FFMPEG VideoWriter on codec HEVC: acceleration = VAAPI, bitrate = 1.13224e+06, PSNR = 37.1872
+FFMPEG VideoWriter on codec MPEG: acceleration = VAAPI, bitrate = 220120, PSNR = 35.7893
+[  PASSED  ] 244 tests.

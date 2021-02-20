@@ -26,11 +26,11 @@ RUN apt-get install -y libtbb-dev libjpeg-dev libpng-dev libtiff-dev libatlas-ba
 # VAAPI
 RUN apt-get install -y libva-dev vainfo
 
-# MFX
-RUN apt-get install -y libmfx-dev libmfx-tools
+# MFX (not available in 18.04)
+RUN apt-get install -y libmfx-dev libmfx-tools || true
 
-# OpenCL
-RUN apt-get install -y intel-opencl-icd libigc1 libigc-dev libigc-tools clinfo
+# OpenCL (Intel OpenCL not available in 18.04)
+RUN apt-get install -y intel-opencl-icd libigc1 libigc-dev libigc-tools clinfo || true
 
 # FFMPEG
 RUN apt-get install -y ffmpeg libavcodec-dev libavformat-dev libswscale-dev

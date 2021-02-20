@@ -1,0 +1,32 @@
+ffmpeg/hirsute,now 7:4.3.1-8ubuntu1 amd64 [installed]
+intel-media-va-driver-non-free/hirsute,now 20.4.5+ds1-1 amd64 [installed]
+intel-opencl-icd/hirsute,now 20.44.18297-1 amd64 [installed]
+libgstreamer1.0-0/hirsute,now 1.18.3-1 amd64 [installed,automatic]
+libmfx-dev/hirsute,now 20.1.0-0ubuntu1 amd64 [installed]
+libmfx-tools/hirsute,now 20.1.0-0ubuntu1 amd64 [installed]
+libmfx1/hirsute,now 20.1.0-0ubuntu1 amd64 [installed,automatic]
+libopencl-clang11/hirsute,now 11.0.0-1 amd64 [installed,automatic]
+libva-dev/hirsute,now 2.10.0-1 amd64 [installed]
+libva-drm2/hirsute,now 2.10.0-1 amd64 [installed,automatic]
+libva-glx2/hirsute,now 2.10.0-1 amd64 [installed,automatic]
+libva-wayland2/hirsute,now 2.10.0-1 amd64 [installed,automatic]
+libva-x11-2/hirsute,now 2.10.0-1 amd64 [installed,automatic]
+libva2/hirsute,now 2.10.0-1 amd64 [installed,automatic]
+ocl-icd-libopencl1/hirsute,now 2.2.14-2 amd64 [installed,automatic]
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4: acceleration = MFX, PSNR-sw = 37.5141, PSNR-original = 32.0503
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libvpx-vp9.mp4: acceleration = VAAPI, PSNR-sw = 37.5185, PSNR-original = 32.0488
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libx264.mp4: acceleration = MFX, PSNR-sw = 37.4776, PSNR-original = 32.0695
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libx264.mp4: acceleration = VAAPI, PSNR-sw = 37.4776, PSNR-original = 32.0695
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libx265.mp4: acceleration = MFX, PSNR-sw = 37.4933, PSNR-original = 31.7869
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libx265.mp4: acceleration = VAAPI, PSNR-sw = 37.4933, PSNR-original = 31.7869
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libxvid.mp4: acceleration = VAAPI, PSNR-sw = 361.202, PSNR-original = 30.1538
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.mjpeg.mp4: acceleration = VAAPI, PSNR-sw = 37.5922, PSNR-original = 31.8029
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.mpeg2video.mp4: acceleration = MFX, PSNR-sw = 37.5005, PSNR-original = 31.8777
+FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.mpeg2video.mp4: acceleration = VAAPI, PSNR-sw = 37.5049, PSNR-original = 31.8763
+FFMPEG VideoWriter on codec H264: acceleration = MFX, bitrate = 100967, PSNR = 37.1323
+FFMPEG VideoWriter on codec H264: acceleration = VAAPI, bitrate = 307485, PSNR = 37.1903
+FFMPEG VideoWriter on codec HEVC: acceleration = MFX, bitrate = 115470, PSNR = 37.1341
+FFMPEG VideoWriter on codec HEVC: acceleration = VAAPI, bitrate = 167310, PSNR = 37.1808
+FFMPEG VideoWriter on codec MPEG: acceleration = MFX, bitrate = 162660, PSNR = 35.7893
+FFMPEG VideoWriter on codec MPEG: acceleration = VAAPI, bitrate = 220120, PSNR = 35.7893
+[  PASSED  ] 244 tests.
