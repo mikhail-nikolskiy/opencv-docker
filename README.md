@@ -13,11 +13,11 @@ cd opencv-docker
 Log [summary](./summary/)
 
 Support matrix on Linux if use media libraries from standard and non-standard apt/yum repositories (no compilation from source code)
-| Linux        | Docker      | va-driver | libmfx | ffmpeg | gst reamer | cv:: VideoCapture     | cv:: VideoWriter     |
+| Linux        | Package repositories | va-driver | libmfx | ffmpeg | gst reamer | cv:: VideoCapture     | cv:: VideoWriter     |
 | ------------ | ------------------ | ------ | --------- | ------ | ------ | --------- | -------------------- |
 | Ubuntu 18.04 | [(default apt)](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/ubuntu.Dockerfile)| i965  |  -      | 3.4.8  | 1.14.5    | **-**                | **-**               |
 | Ubuntu 20.04 | [(default apt)](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/ubuntu.Dockerfile)| 20.1.1.f | -      | 4.2.4  | 1.16.2    | **VAAPI**            | **-**               |
-|                       | [non-free](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/ubuntu-non-free.Dockerfile) | 20.1.1  -      | 4.2.4  | 1.16.2    | **VAAPI**            | **VAAPI**           |
+|             | [non-free](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/ubuntu-non-free.Dockerfile) | 20.1.1  | -  | 4.2.4  | 1.16.2    | **VAAPI**            | **VAAPI**           |
 |                       | [+intel.com](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/ubuntu-intel.Dockerfile) | 21.1.0 | 21.1.0 | 4.2.4  | 1.16.2    | **VAAPI**            | **VAAPI**           |
 | Ubuntu 21.04 | [(default apt)](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/ubuntu.Dockerfile) | 20.4.5.f | 20.1.0 | 4.3.1  | 1.18.3    | **VAAPI**            | **-**               |
 |                      | [non-free](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/ubuntu-non-free.Dockerfile) | 20.4.5 | 20.1.0 | 4.3.1  | 1.18.3    | **VAAPI,MFX**       | **MFX,VAAPI**      |
