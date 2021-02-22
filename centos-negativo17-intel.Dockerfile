@@ -22,7 +22,7 @@ RUN dnf install -y intel-mediasdk intel-mediasdk-devel
 # OpenCL
 RUN dnf install -y intel-opencl intel-igc-opencl-devel
 
-# epel-multimedia.repo (for FFMPEG only)
+# negativo17.org (for FFMPEG and GStreamer)
 RUN dnf -y update --refresh
 RUN dnf install -y epel-release dnf-utils
 RUN yum-config-manager --set-enabled powertools
@@ -32,7 +32,7 @@ RUN yum-config-manager --add-repo=https://negativo17.org/repos/epel-multimedia.r
 RUN dnf install -y ffmpeg ffmpeg-devel
 
 # GStreamer
-#RUN yum install -y gstreamer1-devel gstreamer1-plugins-base-devel gstreamer1-plugins-good gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free-devel
+RUN yum install -y gstreamer1-devel gstreamer1-plugins-base-devel gstreamer1-plugins-good gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free-devel
 
 # Build OpenCV-Debug
 COPY . /root/opencv

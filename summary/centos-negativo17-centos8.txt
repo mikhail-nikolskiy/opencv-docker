@@ -32,8 +32,8 @@ FFMPEG VideoWriter on codec HEVC: acceleration = VAAPI, bitrate = 167310, PSNR =
 FFMPEG VideoWriter on codec MPEG: acceleration = MFX, bitrate = 162660, PSNR = 35.7893
 FFMPEG VideoWriter on codec MPEG: acceleration = VAAPI, bitrate = 220120, PSNR = 35.7893
 [  FAILED  ] videoio/videowriter_acceleration.write/15, where GetParam() = (FOURCC(MPEG), .mkv, GSTREAMER, 29dB, ANY, false) (62 ms)
-[  FAILED  ] videoio/videowriter_acceleration.write/16, where GetParam() = (FOURCC(MPEG), .mkv, GSTREAMER, 29dB, MFX, false) (61 ms)
-[  FAILED  ] videoio/videowriter_acceleration.write/17, where GetParam() = (FOURCC(MPEG), .mkv, GSTREAMER, 29dB, VAAPI, false) (62 ms)
+[  FAILED  ] videoio/videowriter_acceleration.write/16, where GetParam() = (FOURCC(MPEG), .mkv, GSTREAMER, 29dB, MFX, false) (63 ms)
+[  FAILED  ] videoio/videowriter_acceleration.write/17, where GetParam() = (FOURCC(MPEG), .mkv, GSTREAMER, 29dB, VAAPI, false) (63 ms)
 [  FAILED  ] 3 tests, listed below:
 [  FAILED  ] videoio/videowriter_acceleration.write/15, where GetParam() = (FOURCC(MPEG), .mkv, GSTREAMER, 29dB, ANY, false)
 [  FAILED  ] videoio/videowriter_acceleration.write/16, where GetParam() = (FOURCC(MPEG), .mkv, GSTREAMER, 29dB, MFX, false)

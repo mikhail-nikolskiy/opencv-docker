@@ -5,12 +5,15 @@ DISTRIBS=${1:-ubuntu:18.04 \
   ubuntu:21.04 \
   ubuntu-non-free:20.04 \
   ubuntu-non-free:21.04 \
-  ubuntu-gpgpu:20.04 \
+  ubuntu-intel:20.04 \
   centos:centos7 \
   centos:centos8 \
-  centos-multimedia:centos7 \
-  centos-multimedia:centos8 \
-  centos-gpgpu-multimedia:centos8 \
+  centos-rpmfusion:centos7 \
+  centos-rpmfusion:centos8 \
+  centos-rpmfusion-intel:centos8 \
+  centos-negativo17:centos7 \
+  centos-negativo17:centos8 \
+  centos-negativo17-intel:centos8 \
   }
 
 BASEDIR="$(dirname "$(readlink -fm "$0")")"

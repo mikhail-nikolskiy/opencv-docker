@@ -1,7 +1,26 @@
 ffmpeg/focal-updates,focal-security,now 7:4.2.4-1ubuntu0.1 amd64 [installed]
+gir1.2-gstreamer-1.0/focal,now 1.16.2-2 amd64 [installed,automatic]
+gstreamer1.0-gl/focal,now 1.16.2-4 amd64 [installed,automatic]
+gstreamer1.0-libav/focal,now 1.16.2-2 amd64 [installed]
+gstreamer1.0-plugins-bad/focal,now 1.16.2-2.1ubuntu1 amd64 [installed]
+gstreamer1.0-plugins-base/focal,now 1.16.2-4 amd64 [installed]
+gstreamer1.0-plugins-good/focal,now 1.16.2-1ubuntu2 amd64 [installed]
+gstreamer1.0-plugins-ugly/focal,now 1.16.2-2build1 amd64 [installed]
+gstreamer1.0-tools/focal,now 1.16.2-2 amd64 [installed]
+gstreamer1.0-vaapi/focal,now 1.16.2-2 amd64 [installed]
+gstreamer1.0-x/focal,now 1.16.2-4 amd64 [installed,automatic]
 intel-media-va-driver-non-free/focal,now 21.1.0+i482~u20.04 amd64 [installed]
 intel-opencl-icd/focal,now 21.05.18936+i482~u20.04 amd64 [installed]
-libgstreamer1.0-0/focal,now 1.16.2-2 amd64 [installed,automatic]
+libgstreamer-gl1.0-0/focal,now 1.16.2-4 amd64 [installed,automatic]
+libgstreamer-opencv1.0-0/focal,now 1.16.2-2.1ubuntu1 amd64 [installed,automatic]
+libgstreamer-plugins-bad1.0-0/focal,now 1.16.2-2.1ubuntu1 amd64 [installed,automatic]
+libgstreamer-plugins-bad1.0-dev/focal,now 1.16.2-2.1ubuntu1 amd64 [installed]
+libgstreamer-plugins-base1.0-0/focal,now 1.16.2-4 amd64 [installed,automatic]
+libgstreamer-plugins-base1.0-dev/focal,now 1.16.2-4 amd64 [installed]
+libgstreamer-plugins-good1.0-0/focal,now 1.16.2-1ubuntu2 amd64 [installed,automatic]
+libgstreamer-plugins-good1.0-dev/focal,now 1.16.2-1ubuntu2 amd64 [installed,automatic]
+libgstreamer1.0-0/focal,now 1.16.2-2 amd64 [installed]
+libgstreamer1.0-dev/focal,now 1.16.2-2 amd64 [installed]
 libmfx-dev/focal,now 21.1.0+i482~u20.04 amd64 [installed]
 libmfx-tools/focal,now 21.1.0+i482~u20.04 amd64 [installed]
 libmfx1/focal,now 21.1.0+i482~u20.04 amd64 [installed,automatic]
@@ -21,4 +40,4 @@ FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.mpeg2video.mp4: accelerat
 FFMPEG VideoWriter on codec H264: acceleration = VAAPI, bitrate = 307488, PSNR = 37.1903
 FFMPEG VideoWriter on codec HEVC: acceleration = VAAPI, bitrate = 167310, PSNR = 37.1808
 FFMPEG VideoWriter on codec MPEG: acceleration = VAAPI, bitrate = 220120, PSNR = 35.7893
-[  PASSED  ] 244 tests.
+[  PASSED  ] 246 tests.

@@ -1,0 +1,23 @@
+PackageKit-gstreamer-plugin.x86_64 1.1.10-2.el7.centos   @base                  
+ffmpeg.x86_64                      3.4.8-1.el7           @rpmfusion-free-updates
+ffmpeg-devel.x86_64                3.4.8-1.el7           @rpmfusion-free-updates
+ffmpeg-libs.x86_64                 3.4.8-1.el7           @rpmfusion-free-updates
+gstreamer.x86_64                   0.10.36-7.el7         @base                  
+gstreamer-plugins-bad-free.x86_64  0.10.23-23.el7        @base                  
+gstreamer-plugins-base.x86_64      0.10.36-10.el7        @base                  
+gstreamer-plugins-good.x86_64      0.10.31-13.el7        @base                  
+gstreamer-tools.x86_64             0.10.36-7.el7         @base                  
+gstreamer1.x86_64                  1.10.4-2.el7          @base                  
+gstreamer1-devel.x86_64            1.10.4-2.el7          @base                  
+gstreamer1-libav.x86_64            1.10.4-2.el7          @rpmfusion-free-updates
+gstreamer1-plugins-bad-free.x86_64 1.10.4-3.el7          @base                  
+gstreamer1-plugins-bad-freeworld.x86_64
+gstreamer1-plugins-base.x86_64     1.10.4-2.el7          @base                  
+gstreamer1-plugins-base-devel.x86_64
+gstreamer1-plugins-good.x86_64     1.10.4-2.el7          @base                  
+gstreamer1-plugins-ugly.x86_64     1.10.5-2.el7          @rpmfusion-free-updates
+libmfx.x86_64                      1.21-2.el7            @epel                  
+libva.x86_64                       1.8.3-1.el7           @base                  
+libva-devel.x86_64                 1.8.3-1.el7           @base                  
+libva-intel-driver.x86_64          1.8.3-4.el7           @rpmfusion-free-updates
+[  PASSED  ] 246 tests.

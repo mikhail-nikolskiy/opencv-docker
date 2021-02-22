@@ -1,8 +1,27 @@
 ffmpeg/focal-updates,focal-security,now 7:4.2.4-1ubuntu0.1 amd64 [installed]
+gir1.2-gstreamer-1.0/focal,now 1.16.2-2 amd64 [installed,automatic]
+gstreamer1.0-gl/focal,now 1.16.2-4 amd64 [installed,automatic]
+gstreamer1.0-libav/focal,now 1.16.2-2 amd64 [installed]
+gstreamer1.0-plugins-bad/focal,now 1.16.2-2.1ubuntu1 amd64 [installed]
+gstreamer1.0-plugins-base/focal,now 1.16.2-4 amd64 [installed]
+gstreamer1.0-plugins-good/focal,now 1.16.2-1ubuntu2 amd64 [installed]
+gstreamer1.0-plugins-ugly/focal,now 1.16.2-2build1 amd64 [installed]
+gstreamer1.0-tools/focal,now 1.16.2-2 amd64 [installed]
+gstreamer1.0-vaapi/focal,now 1.16.2-2 amd64 [installed]
+gstreamer1.0-x/focal,now 1.16.2-4 amd64 [installed,automatic]
 i965-va-driver/focal,now 2.4.0-0ubuntu1 amd64 [installed,automatic]
 intel-media-va-driver/focal,now 20.1.1+dfsg1-1 amd64 [installed,automatic]
 intel-opencl-icd/focal,now 20.13.16352-1 amd64 [installed]
-libgstreamer1.0-0/focal,now 1.16.2-2 amd64 [installed,automatic]
+libgstreamer-gl1.0-0/focal,now 1.16.2-4 amd64 [installed,automatic]
+libgstreamer-opencv1.0-0/focal,now 1.16.2-2.1ubuntu1 amd64 [installed,automatic]
+libgstreamer-plugins-bad1.0-0/focal,now 1.16.2-2.1ubuntu1 amd64 [installed,automatic]
+libgstreamer-plugins-bad1.0-dev/focal,now 1.16.2-2.1ubuntu1 amd64 [installed]
+libgstreamer-plugins-base1.0-0/focal,now 1.16.2-4 amd64 [installed,automatic]
+libgstreamer-plugins-base1.0-dev/focal,now 1.16.2-4 amd64 [installed]
+libgstreamer-plugins-good1.0-0/focal,now 1.16.2-1ubuntu2 amd64 [installed,automatic]
+libgstreamer-plugins-good1.0-dev/focal,now 1.16.2-1ubuntu2 amd64 [installed,automatic]
+libgstreamer1.0-0/focal,now 1.16.2-2 amd64 [installed]
+libgstreamer1.0-dev/focal,now 1.16.2-2 amd64 [installed]
 libmfx-dev/focal,now 20.1.0-0ubuntu1 amd64 [installed]
 libmfx-tools/focal,now 20.1.0-0ubuntu1 amd64 [installed]
 libmfx1/focal,now 20.1.0-0ubuntu1 amd64 [installed,automatic]
@@ -22,4 +41,4 @@ FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libx265.mp4: acceleration
 FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.libxvid.mp4: acceleration = VAAPI, PSNR-sw = 361.202, PSNR-original = 30.1538
 FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.mjpeg.mp4: acceleration = VAAPI, PSNR-sw = 37.5922, PSNR-original = 31.8029
 FFMPEG VideoCapture on sample_322x242_15frames.yuv420p.mpeg2video.mp4: acceleration = VAAPI, PSNR-sw = 37.5049, PSNR-original = 31.8763
-[  PASSED  ] 244 tests.
+[  PASSED  ] 246 tests.
