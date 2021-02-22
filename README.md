@@ -26,6 +26,6 @@ Support matrix on Linux if use media libraries from standard and non-standard ap
 | | [+negativo17.com](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/centos-negativo17.Dockerfile) | 20.4.5 | 20.3.1 | 4.3.1 | 1.16.1 | **VAAPI,MFX** | **MFX,VAAPI** |
 | CentOS 8  | [(default yum)](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/centos.Dockerfile) | - | - | - | - | **-** | **-** |
 | | [+rpmfusion.com](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/centos-rpmfusion.Dockerfile) | i965 | 1.25 | 4.2.4 | 1.16.1 | **-** | **-** |
-| | [+rpmfusion.com, +intel.com](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/centos-rpmfusion-intel.Dockerfile) | 21.1.0 | 21.1.0 | 4.2.4  | 1.16.1 | **VAAPI,MFX** | **VAAPI** |
+| | [+rpmfusion.com,+intel.com](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/centos-rpmfusion-intel.Dockerfile) | 21.1.0 | 21.1.0 | 4.2.4  | 1.16.1 | **VAAPI,MFX** | **VAAPI** |
 | | [+negativo17.com](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/centos-negativo17.Dockerfile) | 20.4.5   | 20.3.1 | 4.3.1  | 1.16.1    | **VAAPI,MFX** | **MFX,VAAPI** |
-| | [+negativo17.com, +intel.com](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/centos-negativo17-intel.Dockerfile) | 21.1.0 | 21.1.0 | 4.3.1  | 1.16.1    | **VAAPI,MFX**       | **MFX,VAAPI**      |
+| | [+negativo17.com,+intel.com](https://github.com/mikhail-nikolskiy/opencv-docker/blob/master/centos-negativo17-intel.Dockerfile) | 21.1.0 | 21.1.0 | 4.3.1  | 1.16.1    | **VAAPI,MFX**       | **MFX,VAAPI**      |
